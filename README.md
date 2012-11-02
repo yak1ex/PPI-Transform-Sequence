@@ -4,7 +4,7 @@ PPI::Transform::Sequence - Tiny binder to combine multiple PPI::Transform object
 
 # VERSION
 
-version v0.0.0
+version v0.0.1
 
 # SYNOPSIS
 
