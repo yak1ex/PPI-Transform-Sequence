@@ -17,7 +17,7 @@ sub document
     my ($self, $doc) = @_;
     my $count = 0;
     my $quotes = $doc->find('PPI::Token::Quote');
-    while(my (undef, $quote) = each @$quotes) {
+    foreach my $quote (@$quotes) {
         my $content = $quote->content;
         local $_ = $content;
         $self->[0]->();

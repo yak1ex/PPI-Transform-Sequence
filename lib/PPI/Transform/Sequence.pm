@@ -37,7 +37,7 @@ sub document
 {
     my ($self, $doc) = @_;
     my $count = 0;
-    while(my (undef, $trans) = each @$self) {
+    foreach my $trans (@$self) {
         $count += $trans->document($doc);
     }
     return $count;
