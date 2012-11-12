@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+    [Non-functional changes]
+        * Avoid each ARRAY to loosen minimum perl requirement.
+        * Use DZP::Twitter for release notification.
 
 v0.0.2    2012-11-03 07:32:09 Asia/Tokyo
     * Add missing TestRequires prereqs.
